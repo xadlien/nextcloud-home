@@ -113,7 +113,7 @@ resource "docker_container" "nextcloud_app" {
   }
   ports {
     internal = 443
-    external = 8080
+    external = 8443
   }
   volumes {
     volume_name = "nextcloud_app_data"
